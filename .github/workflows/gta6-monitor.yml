@@ -2,9 +2,9 @@ name: GTA 6 Collector's Edition Monitor
 
 on:
   schedule:
-    # Alle 10 Minuten. GitHub führt Cron-Jobs "best effort" aus —
+    # Alle 5 Minuten. GitHub führt Cron-Jobs "best effort" aus —
     # bei hoher Last kann es ein paar Minuten Verzögerung geben.
-    - cron: '*/10 * * * *'
+    - cron: '*/5 * * * *'
   workflow_dispatch: {}   # erlaubt einen manuellen Testlauf über den "Run workflow"-Button
 
 jobs:
